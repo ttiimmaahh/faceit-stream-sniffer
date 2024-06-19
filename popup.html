@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>FACEIT Stream Sniffer</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/popup.js"></script>
+    <style>
+        body {
+            min-width: 540px;
+            background-color: #333333;
+        }
+
+        .btn:focus {
+            box-shadow: none !important;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row mt-2">
+            <div class="col">
+                <div class="card">
+                    <div class="card-header">
+                        FACEIT Stream Sniffer
+                    </div>
+                    <div class="card-body">
+                        <div id="box" class="row box card-text">
+                            <!-- <div class="col-5 card-text">
+                                <span>index.m3u8</span>
+                            </div>
+                            <div class="col-5 card-text">
+                                <span>X-Token</span>
+                            </div>
+                            <div class="col-2">
+                                <a href="#" style="float: right;"><img src="img/copy-icon.svg" style="width:18px;"
+                                        alt="Copy" /></a>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col">
+                <div class="alert alert-success fade hide"
+                    style="padding:5px 20px 5px 20px;line-height:14px;font-size: 18px;" hidden>
+                    Copy successfully!
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="alert alert-danger fade hide"
+                    style="padding:5px 20px 5px 20px;line-height:14px;font-size: 18px;" hidden>
+                    Please re-open the extension or<button type="button" class="btn btn-link btn-sm" id="reload">refresh
+                        page</button>！
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
