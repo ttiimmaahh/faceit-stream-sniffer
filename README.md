@@ -1,6 +1,6 @@
 # faceit-stream-sniffer
 
-![alt text](https://raw.githubusercontent.com/ttiimmaahh/faceit-stream-sniffer/main/icons/apexlogo_48.png "FACEIT Stream Sniffer")
+![alt text](https://raw.githubusercontent.com/ttiimmaahh/faceit-stream-sniffer/main/icons/faceit_sniffer_48.png "FACEIT Stream Sniffer")
 
 A Chrome extension that can sniff live stream and on-demand content from faceit.com
 
