@@ -12,7 +12,8 @@ A Chrome extension that can sniff live stream and on-demand content from faceit.
 * Click on "Load unpacked" and point to directory where you cloned the repository
 
 ---
-![alt text](https://raw.githubusercontent.com/ttiimmaahh/faceit-stream-sniffer/main/img/img1.jpg "FACEIT Stream Sniffer")
+#### Browser Popup:
+<img src="https://raw.githubusercontent.com/ttiimmaahh/faceit-stream-sniffer/main/img/img1.jpg" alt="drawing" style="width:400px;"/>
 
 ---
 #### based on https://github.com/Leenshady/m3u8Sniffer2
